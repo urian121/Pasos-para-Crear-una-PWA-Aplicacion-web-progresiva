@@ -1,0 +1,8 @@
+
+Links para generar archivo manifiesto.json con imagenes de
+las dimensiones correspondientes.
+
+
+1. https://app-manifest.firebaseapp.com/
+
+1. https://www.simicart.com/manifest-generator.html/

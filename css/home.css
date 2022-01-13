@@ -1,0 +1,84 @@
+body {
+  font-family: "Poppins", sans-serif;
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+h1{
+  font-size: 40px !important;
+  font-weight: 800;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+.caja{ 
+  position: relative;
+  display: inline-block;
+}
+.resp_img{
+height: 100%;
+  width: 100%;
+  background-size: cover;
+  text-align: center;
+  filter: brightness(50%);
+}
+.cont{
+width: 60%;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translateX(-50%) translateY(-50%);
+color: #fff;
+border: 3px solid #fff;
+padding: 20px 10px;
+text-align: center;
+}
+.cont h1 {
+font-size: 40px !important;
+font-weight: 800;
+font-family: "M PLUS Rounded 1c", sans-serif;
+}
+@media (min-width: 280px) and (max-width: 480px) {
+.cont{
+width: 90%;
+}
+.cont h1{
+font-size: 20px !important;
+font-weight: 700;
+}
+}
+.nameperfil{
+color: #2F1C6A!important;
+}
+em{
+font-size: 30px;
+}
+.logoYoutube{
+display: block;
+margin: 0 auto;
+width: 120px;
+}
+.logoYoutube:hover{
+cursor: pointer;
+animation-name: efectoHover;
+animation-duration: 0.5s;
+}
+@keyframes efectoHover {
+50%  {
+transform: scale(1.05);
+}
+}
+#perfil{
+padding: 20px;
+border-radius: 50%;
+width: 150px;
+height: 150px;
+}
+#recuerdo{
+background-color:#eeeeee50;
+border-radius: 10px;
+padding: 10px 20px;
+}
+#canalYoutube{
+background-color:#FAFBFF;
+box-shadow: 0px 0px 7px 3px rgb(0 0 0 / 15%);
+border-radius: 10px;
+padding: 10px 20px;
+}
